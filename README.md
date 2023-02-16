@@ -249,3 +249,160 @@ The accruacy of the captioning need to be improve by enlarging the dataset size 
 This image captioning model could be first apply to random daily photo, and then to some specific domain image captioning once the dataset could be increased by obtained any image-captioning source from third-party / organisation.  
 
 
+## Package list 
+```
+Package                      Version
+---------------------------- ----------
+absl-py                      1.3.0
+aiohttp                      3.8.3
+aiosignal                    1.2.0
+anyio                        3.6.2
+astor                        0.8.1
+asttokens                    2.2.1
+astunparse                   1.6.3
+async-timeout                4.0.2
+attrs                        22.1.0
+autopep8                     1.6.0
+backcall                     0.2.0
+blinker                      1.4
+brotlipy                     0.7.0
+cachetools                   4.2.2
+certifi                      2022.12.7
+cffi                         1.15.1
+charset-normalizer           2.0.4
+click                        8.0.4
+colorama                     0.4.6
+comm                         0.1.2
+contourpy                    1.0.7
+cryptography                 38.0.4
+cycler                       0.11.0
+Cython                       0.29.32
+debugpy                      1.6.6
+decorator                    5.1.1
+executing                    1.2.0
+fastapi                      0.90.0
+flatbuffers                  2.0.7
+flit_core                    3.6.0
+fonttools                    4.38.0
+frozenlist                   1.3.3
+fst-pso                      1.8.1
+FuzzyTM                      2.0.5
+gast                         0.4.0
+gensim                       4.3.0
+google-auth                  1.35.0
+google-auth-oauthlib         0.4.1
+google-pasta                 0.2.0
+graphviz                     0.20.1
+grpcio                       1.42.0
+h11                          0.14.0
+h5py                         3.7.0
+httptools                    0.5.0
+idna                         3.4
+importlib-metadata           4.11.3
+ipykernel                    6.21.1
+ipython                      8.9.0
+ipywidgets                   8.0.4
+jedi                         0.18.2
+Jinja2                       3.1.2
+joblib                       1.2.0
+jupyter_client               8.0.2
+jupyter_core                 5.2.0
+jupyterlab-widgets           3.0.5
+keras                        2.7.0
+Keras-Preprocessing          1.1.2
+kiwisolver                   1.4.4
+libclang                     15.0.6.1
+Markdown                     3.4.1
+MarkupSafe                   2.1.1
+matplotlib                   3.6.3
+matplotlib-inline            0.1.6
+miniful                      0.0.6
+mkl-fft                      1.3.1
+mkl-random                   1.2.2
+mkl-service                  2.4.0
+multidict                    6.0.2
+nest-asyncio                 1.5.6
+nltk                         3.8.1
+numpy                        1.23.5
+oauthlib                     3.2.1
+opt-einsum                   3.3.0
+packaging                    23.0
+pandas                       1.5.3
+parso                        0.8.3
+pickleshare                  0.7.5
+Pillow                       9.4.0
+pip                          22.3.1
+platformdirs                 2.6.2
+prompt-toolkit               3.0.36
+protobuf                     3.17.2
+psutil                       5.9.4
+pure-eval                    0.2.2
+pyasn1                       0.4.8
+pyasn1-modules               0.2.8
+pycodestyle                  2.10.0
+pycparser                    2.21
+pydantic                     1.10.4
+pydot                        1.4.2
+pyFUME                       0.2.25
+Pygments                     2.14.0
+PyJWT                        2.4.0
+pyOpenSSL                    22.0.0
+pyparsing                    3.0.9
+PySocks                      1.7.1
+python-dateutil              2.8.2
+python-dotenv                0.21.1
+python-multipart             0.0.5
+python-version               0.0.2
+pytz                         2022.7.1
+pywin32                      305
+PyYAML                       6.0
+pyzmq                        25.0.0
+regex                        2022.10.31
+requests                     2.28.1
+requests-oauthlib            1.3.0
+rsa                          4.7.2
+scipy                        1.9.3
+setuptools                   65.6.3
+simpful                      2.9.0
+six                          1.16.0
+smart-open                   6.3.0
+sniffio                      1.3.0
+stack-data                   0.6.2
+starlette                    0.23.0
+tensorboard                  2.6.0
+tensorboard-data-server      0.6.1
+tensorboard-plugin-wit       1.8.1
+tensorflow                   2.7.0
+tensorflow-estimator         2.7.0
+tensorflow-io-gcs-filesystem 0.30.0
+termcolor                    2.1.0
+toml                         0.10.2
+tornado                      6.2
+tqdm                         4.64.1
+traitlets                    5.9.0
+typing_extensions            4.4.0
+urllib3                      1.26.14
+uvicorn                      0.20.0
+watchfiles                   0.18.1
+wcwidth                      0.2.6
+websockets                   10.4
+Werkzeug                     2.2.2
+wheel                        0.35.1
+widgetsnbextension           4.0.5
+win-inet-pton                1.1.0
+wincertstore                 0.2
+wrapt                        1.14.1
+yarl                         1.8.1
+zipp                         3.11.0
+```
+
+## Set Up
+1. install annaconda and go into annaconda terminal
+2. conda create --name tf_gpu tensorflow-gpu
+3. activate tf_gpu
+4. make sure above package list are installed
+5. Unzip the repo
+6. cd ai_training_project_poetry/model
+7. uvicorn main:app --host 0.0.0.0 --port 3000
+8. Open Browser and go to http://localhost:3000
+9. Have fun
